@@ -1,6 +1,6 @@
 package com.example.moviesEP.controller
 
-import com.example.MoviesEP.dto.TokenDto
+import com.example.moviesEP.dto.TokenDto
 import com.example.moviesEP.config.JwtUtil
 import com.example.moviesEP.dto.LoginDto
 import com.example.moviesEP.dto.RegisterDto
@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/auth")
 class AuthController {
+
     @Autowired
     lateinit var userSecurityService: UserSecurityService
     @Autowired

@@ -1,4 +1,4 @@
-package com.example.MoviesEP.dto
+package com.example.moviesEP.dto
 
 class TokenDto {
     var jwt:String?=null
